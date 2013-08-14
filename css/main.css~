@@ -25,6 +25,17 @@ img {
     width: auto;
 }
 
+/**ul {
+list-style-type:none;
+margin:0;
+padding:0;	
+	}
+
+li {
+display: inline;
+				white-space: nowrap;	
+				overflow: hidden;
+	} **/
 /*Remove default fieldset styles.*/
 
 fieldset {
@@ -67,7 +78,7 @@ h3 {
 	font-family: sans-serif;
 	color:white;
 	text-align: center;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 p {
@@ -209,24 +220,9 @@ p {
     max-width: 410px;
 }
 
-#nosotros-table {
-	width: 100%;
-	table-layout: fixed;
-	margin: 0 auto 0 auto;
-	}
-	
-	#nexus {
-		max-width: 176px;
-		float: right;
-		}
 		
-		#barra-separadora {
-		max-width: 4px;
-		}
-		
-#four-geeks {
-		max-width: 160px;
-		float: left;
+#nexusgeeks {
+		max-width: 348px;
 		}
 
 
@@ -303,7 +299,7 @@ width: 100%;
 /** Sección Equipo **/
 
 #tabla-controles-galeria {
-	table-layout: fixed
+	table-layout: fixed;
 	margin: 0 auto 0 auto;
 	width: 100%;
 }

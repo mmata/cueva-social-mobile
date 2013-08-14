@@ -1,5 +1,5 @@
 $(document).ready(function() {
-$('.accordionButton').on("tap", function() {
+$('.accordionButton').click(function() {
 $('.arrow').removeClass('rotated');
 $('.accordionButton').removeClass('on');
 $('.accordionContent').slideUp('slow');
