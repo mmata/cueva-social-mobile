@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>
+<html class="no-js iem7">
+<![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]>
+<!-->
+<html class="no-js">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cueva Social | Creamos conversaciones que hacen eco</title>
+		<meta name="description"
+		content="">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="cleartype" content="on">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+		<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileColor" content="#222222">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/accordion.js"></script>
+		<script src="js/gallery.js"></script>
+
+	</head>
+
+	<body>
+		<div id="wrapper" class="content">
+
+			<!-- Cabecera -->
+
+			<img src="img/iconos/logos/logo_03.png" id="logo" class="center">
+			<img src="img/otras/postlogo.png" id="hide" class="center webwidth">
+
+			<!--Nosotros -->
+
+			<div class="overlap center">
+				<img src="img/fondos/nosotros-off.png" class="center webwidth">
+				<div id="nosotrosContent" class="center">
+					<img src="img/flechas/arriba.png" class="menuIzq arrow">
+					<img src="img/flechas/arriba.png" class="menuDerecha arrow">
+					<div id="nosotrosButton" class="accordionButton center">
+						<h2>Nosotros</h2>
+						<div class="separador"></div>
+					</div>
+					<div class="accordionContent center">
+						<p>
+							El mundo está hecho de interacciones y amamos trabajar para lograrlas.
+							Conocemos a cada cliente, sus experiencias y su manera de entender la marca.
+						</p>
+						<p>
+							En Cueva Social, buscamos la conexión entre los usuarios y la personalidad
+							de la marca en el entorno digital, creando estrategias con las que producimos
+							miles de interacciones, para crear conversaciones que hacen eco.
+						</p>
+						<p>
+							Cueva Social es una agencia de mercadeo interactivo, especializada en
+							el manejo estratégico de redes sociales. Construimos y gestionamos la presencia
+							de tu marca en Internet.
+						</p>
+						<br/>
+						<img src="img/iconos/logos/_favio_03.png" id="favio">
+						<br/>
+						<h3>Nuestros aliados</h3>
+						<table id ="nosotros-table"><tr>
+								<td><img src="img/iconos/logos/1_10.png" id="nexus" class="ajusteAncho"></td>
+								<td><img src="img/otras/separador.png" id="barra-separadora" class="ajusteAncho"></td>
+								<td><img src="img/iconos/logos/1_07.png" id="four-geeks" class="ajusteAncho"></td></tr>
+						</table>
+						<img src="img/otras/borde-nosotros.png" id="borde-nosotros">
+						<br /><br />
+					</div>
+				</div>
+			</div>
+
+			<!--Servicios -->
+
+			<div class="center">
+				<img src="img/fondos/servicios-off.png" id="servicios-fondo" class="center webwidth">
+				<div id="serviciosContent" class="center">
+					<img src="img/flechas/arriba.png" class="menuIzq arrow">
+					<img src="img/flechas/arriba.png" class="menuDerecha arrow">
+					<div id="serviciosButton" class="accordionButton center">
+						<h2>Servicios</h2>
+						<div class="separador"></div>
+					</div>
+					<div class="accordionContent center">
+					
+					<table class="servicios-table"><tr>
+					<td class="row-width"><img class="servicioIzquierdo" src="img/iconos/servicios/brandingeidentidaddigita.png">
+					</td>
+					<td><p class="vertical-align">Construimos y promocionamos marcas en el entorno digital. Diseñamos la identidad corporativa y la personalidad de tu marca en Internet.</p></td>
+					</tr>
+					</table>
+					
+					<table class="overlay-table"><tr>
+					<td><p class="vertical-align-ol">Algunos de nuestros clientes quieren aprender acerca de las redes sociales para manejarlas internamente o participar activamente en la creación de sus campañas. 
+En estos casos, compartimos herramientas, recursos y experiencias con sus equipos de trabajo, para que implementen sus estrategias e interactúen con las comunidades online.</p></td>
+					<td class="row-width"><img class="servicioDerecho" src="img/iconos/servicios/consultoriaycoaching.png"></td>
+					</tr>
+					</table>
+					
+					<table class="servicios-table"><tr>
+					<td class="row-width"><img class="servicioIzquierdo" src="img/iconos/servicios/desarrollotecnologico.png"></td>
+					<td><p class="vertical-align">En Cueva Social también tenemos un lado tecnológico. 4Geeks, una de nuestras empresas asociadas, conformada por un equipo de desarrolladores amantes de la tecnología, programa desde páginas web hasta juegos o aplicaciones para smartphones y redes sociales.</p></td>
+					</tr>
+					</table>
+					
+					<table class="overlay-table"><tr>
+					<td><p class="vertical-align-ol">A veces el mundo digital no es suficiente. Es por eso que para complementar nuestras estrategias en Internet, creamos junto con nuestra empresa aliada Nexus, campañas que combinan acciones de mercadeo tradicional (BTL y ATL) con marketing interactivo, para generar nuevas experiencias de participación.</p></td>
+					<td class="row-width"><img class="servicioDerecho" src="img/iconos/servicios/estrategiasintegradas.png"></td>
+					</tr>
+					</table>
+					
+					<table class="servicios-table"><tr>
+					<td class="row-width"><img class="servicioIzquierdo" src="img/iconos/servicios/gestionestrategicaderedes.png"></td>
+					<td><p class="vertical-align">En Cueva Social entendemos la importancia de que las marcas conecten con su público. Es por eso que nos especializamos en planificar acciones para que nuestros clientes no pasen inadvertidos por las redes sociales.</p></td>
+					</tr>
+					</table>
+					
+					<table class="overlay-table"><tr>
+					<td><p class="vertical-align-ol">¿De qué vale cada esfuerzo sin sus resultados? Medimos en tiempo real el rendimiento de cada una de nuestras campañas y creamos informes periódicos acerca de lo se está hablando de cada uno de nuestros clientes. Reinventamos las campañas de acuerdo a nuestros análisis para generar los más altos Retornos de Inversión posibles.</p></td>
+					<td class="row-width"><img class="servicioDerecho" src="img/iconos/servicios/monitoreoyreputacion.png"></td>
+					</tr>
+					</table>
+					
+					<table class="servicios-table"><tr>
+					<td class="row-width"><img class="servicioIzquierdo" src="img/iconos/servicios/seosem.png"></td>
+					<td><p class="vertical-align">La publicidad online nos ayuda a darle fuerza a cada una de las campañas que ponemos en marcha en el entorno digital. Nos permite dirigir cada anuncio exactamente a quienes queremos llegar, mientras optimizamos los contenidos de los sitios web que creamos, con el objetivo de hacerlos amigables y posicionarlos en los primeros lugares de los buscadores.</p></td>
+					</tr>
+					</table>
+					
+					<table class="overlay-table"><tr>
+					<td><p class="vertical-align-ol">Diseñamos y ponemos en marcha estrategias creativas para que las marcas conecten con su público de un modo particular, emocional y participativo. Nos especializamos en desarrollar acciones dentro del entorno social que generen conversaciones y fortalezcan la relación con los consumidores.</p></td>
+				<td class="row-width">	<img class="servicioDerecho" src="img/iconos/servicios/socialmediamarketing.png"></td>
+					</tr>
+					</table>
+					
+						<br>
+
+					</div>
+				</div>
+			</div>
+
+			<!--Portafolio -->
+
+			<div class="center">
+				<img src="img/fondos/portafolio-off_02.png" id="portafolio-fondo" class="center webwidth">
+				<div id="portafolioContent" class="center">
+					<img src="img/flechas/arriba.png" class="menuIzq arrow">
+					<img src="img/flechas/arriba.png" class="menuDerecha arrow">
+					<div id="portafolioButton" class="accordionButton center">
+						<h2>Portafolio</h2>
+						<div class="separador"></div>
+					</div>
+					<div id="portafolioGallery" class="accordionContent center">
+						<br />
+						<img class="portafolioImage" id="auno" src="img/proyectos/botones/boton-a1-off.png">
+						<img class="portafolioImage" id="gamma" src="img/proyectos/botones/boton-gama-off.png">
+						<img class="portafolioImage" id="maybelline" src="img/proyectos/botones/boton-maybelline-off.png">
+						<img class="portafolioImage" id="oportunidad" src="img/proyectos/botones/boton-oportunidad-off.png">
+						<img class="portafolioImage" id="sateca" src="img/proyectos/botones/boton-sateca-off.png">
+						<img class="portafolioImage" id="wella" src="img/proyectos/botones/boton-wella-off.png">
+						<img src="img/otras/loader.gif" id="loader-portafolio" class="noDisplay">
+
+						<br />
+						<table id="tabla-controles-portafolio">
+							<tr>
+								<td><img src="img/equipo/flecha-izquierda-off.png" id="flecha-portafolio-izq"></td>
+								<td><img src="img/equipo/flecha-derecha-off.png" id="flecha-portafolio-der"></td>
+							</tr>
+						</table>
+						<br />
+					</div>
+				</div>
+			</div>
+
+			<!--Equipo -->
+
+			<div class="center">
+				<img src="img/fondos/equipo-off_02.png" id="equipo-fondo" class="center webwidth">
+				<div id="equipoContent" class="center">
+					<img src="img/flechas/arriba.png" class="menuIzq arrow">
+					<img src="img/flechas/arriba.png" class="menuDerecha arrow">
+					<div id="equipoButton" class="accordionButton center">
+						<h2>Equipo</h2>
+						<div class="separador"></div>
+					</div>
+					<div id="equipoGallery" class="accordionContent center">
+						<br />
+
+						<img src="img/equipo/equipo-1.png" id="main-img">
+						<br />
+						<table id="tabla-controles-galeria">
+							<tr>
+								<td><img src="img/equipo/flecha-izquierda-off.png" id="flecha-galeria-izq"></td>
+								<td><img src="img/equipo/flecha-derecha-off.png" id="flecha-galeria-der"></td>
+							</tr>
+						</table>
+
+						<img src="img/otras/loader.gif" id="loader-gallery" class="noDisplay">
+						<br />
+					</div>
+				</div>
+			</div>
+
+			<!--Contacto -->
+
+			<div class="center">
+				<img src="img/fondos/contacto-off_02.png" id="contacto-fondo" class="center webwidth">
+				<div id="contactoContent" class="center">
+					<img src="img/flechas/arriba.png" class="menuIzq arrow">
+					<img src="img/flechas/arriba.png" class="menuDerecha arrow">
+
+					<div id="contactoButton" class="accordionButton center">
+						<h2>Contacto</h2>
+						<div class="separador"></div>
+					</div>
+					<div id="contactoInfo" class="accordionContent center">
+						<p id="escribenos-parrafo">
+							Escribenos o visitanos en nuestra Cueva
+						</p>
+
+						<div id="contacto-contenedor">
+
+							<form action="" method="get">
+								<p class="contactoParrafo">
+									* Nombre y apellido
+								</p>
+								<input type="text" name="nombre" id="nombre" class="formulario" />
+								<p class="contactoParrafo">
+									* Email
+								</p>
+								<input type="text" name="email" id="email" class="formulario" />
+								<p class="contactoParrafo">
+									* Pais
+								</p>
+								<input type="text" name="pais" id="pais" class="formulario" />
+								<p class="contactoParrafo">
+									* Que podemos hacer por ti?
+								</p>
+								<textarea id="comentario" class="formulario"></textarea>
+								<input type="submit" id="boton-enviar" value="Enviar"/>
+							</form>
+
+						</div>
+						<br />
+						<br />
+						<div id="info">
+							<p class="contactoParrafo">
+								Telefono: +58.212.2381051
+							</p>
+							<p class="contactoParrafo">
+								Email: hola@cuevasocial.com
+							</p>
+							<p class="contactoParrafo">
+								RIF: J-31719790-9
+							</p>
+							<p class="contactoParrafo">
+								Todos los Derechos Reservados 2013
+							</p>
+						</div>
+						<br />
+					</div>
+				</div>
+			</div>
+
+			<!--Footer -->
+
+			<div class="center">
+
+				<img src="img/otras/barra-social.png" id="footer-fondo" class="center webwidth">
+
+				<table class="footerTable">
+					<tr>
+						<td class="footerData"><a href="https://www.facebook.com/CuevaSocial" target="_blank"> <img src="img/redes/fb-off.png" class="fbButton img-swap"></a></td>
+						<td class="footerData"><a href="https://twitter.com/CuevaSocial" target="_blank"> <img src="img/redes/twit-off.png" class="twiButton img-swap"></a></td>
+						<td class="footerData"><a href="http://instagram.com/cuevasocial/" target="_blank"> <img src="img/redes/inst-off.png" class="instButton img-swap"></a></td>
+						<td class="footerData"><a href="http://pinterest.com/cuevasocial/" target="_blank"> <img src="img/redes/int-off.png" class="pintButton img-swap"></a></td>
+						<td class="footerData"><a href="http://www.youtube.com/user/CuevaSocial" target="_blank"> <img src="img/redes/yout-off.png" class="youButton img-swap"></a></td>
+						<td class="footerData"><a href="http://preview.grooveshark.com/#!/cuevasocial" target="_blank"> <img src="img/redes/groove-off.png" class="grooveButton img-swap"></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<script src="js/vendor/zepto.min.js"></script>
+		<script src="js/helper.js"></script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+		-->
+		<script>
+			var _gaq = [["_setAccount", "UA-XXXXX-X"], ["_trackPageview"]]; ( function(d, t) {
+					var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+					g.async = 1;
+					g.src = ("https:" == location.protocol ? "//ssl" : "//www") + ".google-analytics.com/ga.js";
+					s.parentNode.insertBefore(g, s)
+				}(document, "script"));
+		</script>
+	</body>
+
+</html>
