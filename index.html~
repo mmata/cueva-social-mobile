@@ -69,16 +69,13 @@
 							de tu marca en Internet.
 						</p>
 						<br/>
-						<img src="img/iconos/logos/favio_03.png" id="favio">
+						<img src="img/iconos/logos/_favio_03.png" id="favio">
 						<br/>
 						<h3>Nuestros aliados</h3>
-						<table id ="nosotros-table"><tr>
-								<td><img src="img/iconos/logos/1_10.png" id="nexus" class="ajusteAncho"></td>
-								<td><img src="img/otras/separador.png" id="barra-separadora" class="ajusteAncho"></td>
-								<td><img src="img/iconos/logos/1_07.png" id="four-geeks" class="ajusteAncho"></td></tr>
-						</table>
-						<img src="img/otras/borde-nosotros.png" id="borde-nosotros">
+						<img src="img/iconos/logos/nexus_4_geeks.png" id="nexusgeeks" class="ajusteAncho">
 						<br /><br />
+						<img src="img/otras/borde-nosotros.png" id="borde-nosotros">
+						<br /><br 
 					</div>
 				</div>
 			</div>
