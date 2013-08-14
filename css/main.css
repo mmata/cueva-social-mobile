@@ -1,0 +1,643 @@
+body {
+    font-size: 1.4em;
+    line-height: 1.4;
+    text-align: center;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+img {
+    vertical-align: middle;
+    margin: 0 auto 0 auto; 
+    padding:0;
+    width: auto;
+}
+
+/*Remove default fieldset styles.*/
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Allow only vertical resizing of textareas.*/
+
+textarea {
+    resize: vertical;
+}
+
+div {
+    margin: 0 auto 0 auto;
+    width: auto;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+table {
+	margin: 0 auto 0 auto;
+}
+
+h2 {
+	font-family: indy_pimp;
+	font-size: 2em;
+	color:white;
+	text-transform:uppercase;
+	text-shadow: 0.1em 0.1em 0.2em #424242;
+	text-align:center;
+	margin:0; 
+	padding:0;
+}
+
+h3 {
+	font-family: sans-serif;
+	color:white;
+	text-align: center;
+	padding:10;
+}
+
+p {
+				font-size: 0.75em;
+	color:white;
+	text-align: justify;
+	font-family: sans-serif;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.overlap {
+	margin-top: -3%;
+}
+
+.center {
+    display: block;
+}
+
+.ajusteAncho {
+	width: 95%;
+}
+	
+.separador {
+	line-height: 3em;
+}
+		
+.noDisplay {
+	display: none;			
+}
+	
+	/** Flechas de los botones de las secciones **/
+	
+.menuDerecha {
+	float: right;
+    margin-right: 20%;
+    margin-top: 5px;
+    width: 5%;
+}
+
+.menuIzq {
+	float: left;
+	margin-left: 20%;
+	margin-top: 5px;
+    width: 5%;
+}
+
+.rotated {
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg); /* IE 9 */
+  	-moz-transform: rotate(180deg); /* Firefox */
+  	-webkit-transform: rotate(180deg); /* Safari and Chrome */
+  	-o-transform: rotate(180deg); /* Opera */
+}
+	
+	/** Cabecera **/
+	
+#logo {
+	padding: 5%;
+	width: 90%;
+	max-width: 227px;	
+}
+
+#hide {
+	position: relative;
+	z-index: 2;
+}
+
+/** Cuerpo de la página **/
+
+#wrapper {
+    background-color: #E1DDD8;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 640px;
+	height: 100%;
+}
+
+/** Colores de las secciones **/
+
+#servicios-fondo {
+	background-color: #02AEB5;
+}
+	
+#portafolio-fondo {
+	background-color: #8C7864;
+}
+	
+#equipo-fondo {
+	background-color: #CCC8B6;
+}
+	
+#contacto-fondo {
+	background-color: #017375;
+}
+	
+#footer-fondo {
+	background-color: #B39F89;
+}
+
+#nosotrosContent {
+	background-color: #02AEB5;
+}
+
+#serviciosContent {
+	background-color: #8C7864;
+}
+
+#portafolioContent {
+	background-color: #CCC8B6;
+}
+
+#equipoContent {
+	background-color: #017375;
+}
+
+#contactoContent {
+	background-color: #B39F89;
+}
+
+.webwidth {
+	width: 100%;
+	max-width: 640px;
+}
+
+/** Sección Nosotros */
+
+#borde-nosotros {
+	float: left;
+	width: 80%;
+	position: relative;
+	bottom: -2em;
+}
+	
+#favio {
+    width:80%;
+    max-width: 410px;
+}
+
+#nosotros-table {
+	width: 100%;
+	table-layout: fixed
+	margin: 0 auto 0 auto;
+	}
+	
+	#nexus {
+		max-width: 176px;
+		float: right;
+		}
+		
+		#barra-separadora {
+		max-width: 4px;
+		}
+		
+#four-geeks {
+		max-width: 160px;
+		float: left;
+		}
+
+
+/** Sección Servicios **/
+
+.servicioIzquierdo {
+	margin-left: 20%;
+	width: 95%;
+	}
+	
+	.servicioDerecho {
+	margin-left: -20%;
+	width: 95%;
+	}
+	
+	.overlay-table {
+	background: url('../img/fondos/fondo-servicios-separador.png') no-repeat center center;
+	background-size: 100% 100%;
+	width: 100%;
+		}
+		
+		.servicios-table {
+width: 100%;
+			}
+		
+		.vertical-align {
+			vertical-align: middle;
+				margin-top: 2em;
+			margin-bottom: 2em;
+			}
+			
+			.vertical-align-ol {
+			vertical-align: middle;
+			margin-top: 5em;
+			margin-bottom: 5em;
+			}
+	
+.socialImg {
+	width: 100%;
+	max-width: 170px;
+	margin-left: 3%;
+}
+		
+#servicios-separador {
+	width: 100%;
+	max-width: 640px;			
+	z-index: 2;
+}
+
+#social-media-img {
+	margin-right: 3%;	
+	width: 100%;
+	max-width: 170px;
+}
+	
+.row-width {
+	width: 20%;		
+}
+		
+#tabla-servicios {
+	z-index: 3;
+	margin-top: -38%;	
+	width: 100%;
+}
+		
+.alignTables {
+	width: 100%;			
+}
+	
+#branding-img {
+	padding-right: 3%;		
+}
+
+/** Sección Equipo **/
+
+#tabla-controles-galeria {
+	table-layout: fixed
+	margin: 0 auto 0 auto;
+	width: 100%;
+}
+	
+#flecha-galeria-izq{
+	width: 20%;
+	float: left;
+	margin-left: 20%;
+}
+		
+#flecha-galeria-der{
+	width: 20%;
+	float: right;
+	margin-right: 20%;
+}
+		
+#main-img {
+	width: 90%;
+	max-width: 640px;
+}
+			
+#loader-gallery {
+	margin-top: -85%;
+}
+	
+	/** Sección Portafolio **/
+	
+.portafolioImage {
+	width: 70%;
+	max-width: 420px;
+	margin: 0 auto 0 auto;
+}
+
+#tabla-controles-portafolio {
+	table-layout: fixed
+	margin: 0 auto 0 auto;
+	width: 100%;
+	display: none;
+}
+		
+#flecha-portafolio-izq{
+	width: 20%;
+	float: left;
+	margin-left: 20%;
+}
+		
+#flecha-portafolio-der{
+	width: 20%;
+	float: right;
+	margin-right: 20%;
+}
+		
+#loader-portafolio {
+	margin-top: -20%;
+}
+				
+	/** Sección Contacto **/
+	
+#escribenos-parrafo {
+	width: 90%;
+	font-family: eurostyle-normal;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+		
+.contactoParrafo {
+	color: #004041;
+	font-family: eurostyle-normal;
+	text-align: justify;
+	font-size: 1.1em;
+	margin-left: 1.5em;
+}
+			
+#contacto-contenedor {
+	line-height: 0.1em;				
+}
+				
+#info {
+	line-height: 0.3em;				
+}
+				
+.formulario {
+	width: 87%;
+	background-color: #e8e4d4;
+	border: 0;
+	font-family: eurostyle-normal;
+	padding: 0.3em;
+}
+			
+			
+#comentario {
+	overflow: hidden;
+	height: 8em;
+}
+				
+#form-bg{
+	width: 87.5%;
+	max-width: 570px;
+}
+					
+#boton-enviar {
+	width: 30%;
+	padding: 1.5%;
+	max-width: 325px;
+	float: right;
+	margin-right: 6.5%;
+	background-color: #004041;
+	border: 0;
+	font-family: eurostyle-normal;
+	color: white;
+	font-size: 90%;
+	margin-top: 0.2em;
+}
+						
+/** #boton-enviar:hover {
+	background-color: #f16022;
+} **/
+							
+		
+	/** Pie de página **/
+
+.footerTable {
+	table-layout: fixed
+	z-index: 2;
+	margin-top: -11%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.footerData {
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+
+.fbButton {
+	width: 100%;
+	max-width: 28px;
+}
+	
+.twiButton {
+	width: 100%;
+	max-width: 63px;
+}
+	
+.instButton {
+	width: 100%;
+	max-width: 49px;
+}
+	
+.pintButton {
+	width: 100%;
+	max-width: 47px;
+}
+	
+.youButton {
+	width: 100%;
+	max-width: 57px;
+}
+	
+.grooveButton {
+	width: 100%;
+	max-width: 42px;
+}
+		
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Prevent callout */
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.pressed {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+
+/** .ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+} **/
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@font-face {
+    font-family: indy_pimp;
+	src: url('../fonts/indiepimptbs.ttf');
+}
+
+@font-face {
+    font-family: eurostyle-normal;
+	src: url('../fonts/eurostyle-normal.ttf');
+}
+
+@media screen and (max-width: 160px) {
+    body{font-size: 70%;}
+}
+
+@media screen and (max-width: 240px) {
+    body{font-size: 80%;}
+}
+
+@media screen and (max-width: 320px) {
+    body{font-size: 90%;}
+}
+
+@media screen and (max-width: 400px) {
+    body{font-size: 100%;}
+}
+
+@media screen and (max-width: 640px) {
+    body{font-size: 110%;}
+}
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+}
+
+@media all and (orientation:landscape) {
+  /* Style adjustments for landscape mode goes here */
+}
