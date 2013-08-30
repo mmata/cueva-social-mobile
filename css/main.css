@@ -170,15 +170,17 @@ p {
 }
 	
 #equipo-fondo {
-	background-color: #CCC8B6;
+	//background-color: #CCC8B6;
 }
 	
 #contacto-fondo {
-	background-color: #017375;
+	//background-color: #017375;
+	background-color: #CCC8B6;
 }
 	
 #footer-fondo {
-	background-color: #B39F89;
+	//background-color: #B39F89;
+	background-color: #017375;
 }
 
 #nosotrosContent {
@@ -198,7 +200,8 @@ p {
 }
 
 #contactoContent {
-	background-color: #B39F89;
+	//background-color: #B39F89;
+	background-color: #017375;
 }
 
 .webwidth {
