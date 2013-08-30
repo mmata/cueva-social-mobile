@@ -45,39 +45,39 @@ $("#loader-gallery").hide();
 }).attr("src", "img/equipo/equipo-" + lastpic + ".png");}
 });
 
-$(".portafolioImage").on("tap", function() {
+/*$(".portafolioImage").on("tap", function() {
 
-id = $(this).attr("id");
+	id = $(this).attr("id");
 
-if (toggle == true) {
-$("#wella").fadeOut('slow');
-$("#sateca").fadeOut('slow');
-$("#oportunidad").fadeOut('slow');
-$("#maybelline").fadeOut('slow');
-$("#gamma").fadeOut('slow');
-toggle = false;
-$("#auno").load(function() {
-$("#auno").css('width', '90%');
-$("#auno").css('max-width', '624px');
-$("#tabla-controles-portafolio").show();
-}).attr("src", "img/proyectos/proyectos/" + id + "-1.png");
-}
+	if (toggle == true) {
+		$("#wella").fadeOut('slow');
+		$("#sateca").fadeOut('slow');
+		$("#oportunidad").fadeOut('slow');
+		$("#maybelline").fadeOut('slow');
+		$("#gamma").fadeOut('slow');
+		toggle = false;
+		$("#auno").load(function() {
+		$("#auno").css('width', '90%');
+		$("#auno").css('max-width', '624px');
+		$("#tabla-controles-portafolio").show();
+	}).attr("src", "img/proyectos/proyectos/" + id + "-1.png");
+	}
 
-else if (toggle == false) {
-$("#gamma").fadeIn('slow');
-$("#maybelline").fadeIn('slow');
-$("#oportunidad").fadeIn('slow');
-$("#sateca").fadeIn('slow');
-$("#wella").fadeIn('slow');
-$("#tabla-controles-portafolio").fadeOut('slow');
-toggle = true;
-$("#auno").load(function() {
-$("#auno").css('width', '70%');
-$("#auno").css('max-width', '420px');
-}).attr("src", "img/proyectos/botones/boton-a1-off.png");
-}
+	else if (toggle == false) {
+		$("#gamma").fadeIn('slow');
+		$("#maybelline").fadeIn('slow');
+		$("#oportunidad").fadeIn('slow');
+		$("#sateca").fadeIn('slow');
+		$("#wella").fadeIn('slow');
+		$("#tabla-controles-portafolio").fadeOut('slow');
+		toggle = true;
+		$("#auno").load(function() {
+		$("#auno").css('width', '70%');
+		$("#auno").css('max-width', '420px');
+		}).attr("src", "img/proyectos/botones/boton-a1-off.png");
+	}
 
-});
+});*/
 
 $("#flecha-portafolio-der").on("tap", function() {
 
