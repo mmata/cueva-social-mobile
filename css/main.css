@@ -363,7 +363,7 @@ width: 100%;
 	
 #escribenos-parrafo {
 	width: 90%;
-	font-family: eurostyle-normal;
+	font-family: "Helvetica neue";
 	color: white;
 	font-size: 1.2em;
 	text-align: center;
@@ -371,7 +371,7 @@ width: 100%;
 		
 .contactoParrafo {
 	color: #004041;
-	font-family: eurostyle-normal;
+	font-family: "Helvetica neue";
 	text-align: justify;
 	font-size: 1.1em;
 	margin-left: 1.5em;
@@ -389,7 +389,7 @@ width: 100%;
 	width: 87%;
 	background-color: #e8e4d4;
 	border: 0;
-	font-family: eurostyle-normal;
+	font-family: "Helvetica neue";
 	padding: 0.3em;
 }
 			
@@ -412,7 +412,7 @@ width: 100%;
 	margin-right: 6.5%;
 	background-color: #004041;
 	border: 0;
-	font-family: eurostyle-normal;
+	font-family: "Helvetica neue";
 	color: white;
 	font-size: 90%;
 	margin-top: 0.2em;
@@ -604,8 +604,8 @@ textarea[contenteditable] {
 }
 
 @font-face {
-    font-family: eurostyle-normal;
-	src: url('../fonts/eurostyle-normal.ttf');
+    font-family: "Helvetica neue";
+	src: url('../fonts/"Helvetica neue".ttf');
 }
 
 @media screen and (max-width: 160px) {
