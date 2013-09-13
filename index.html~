@@ -251,15 +251,15 @@
 								<p class="contactoParrafo">
 									* Nombre y apellido
 								</p>
-								<input type="text" name="nombre" id="nombre" class="formulario" />
+								<input type="text" name="nombre" value="" id="nombre" class="formulario" />
 								<p class="contactoParrafo">
 									* Email
 								</p>
-								<input type="text" name="email" id="email" class="formulario" />
+								<input type="text" name="email" value="" id="email" class="formulario" />
 								<p class="contactoParrafo">
 									* Pa&iacute;s
 								</p>
-								<input type="text" name="pais" id="pais" class="formulario" />
+								<input type="text" name="pais" value="" id="pais" class="formulario" />
 								<p class="contactoParrafo">
 									* &iquest;Qu&eacute; podemos hacer por ti?
 								</p>
@@ -272,7 +272,8 @@
 						<br />
 						<div id="info">
 							<p class="contactoParrafo">
-								Tel&eacute;fono: +58.212.2381051
+							Tel&eacute;fono: 
+							<a href="tel:582122381051">+58.212.2381051</a>
 							</p>
 							<p class="contactoParrafo">
 								Email: hola@cuevasocial.com
@@ -281,7 +282,7 @@
 								RIF: J-31719790-9
 							</p>
 							<p class="contactoParrafo">
-								Todos los Derechos Reservados 2013
+								© 2013. Todos los derechos reservados
 							</p>
 						</div>
 						<br />

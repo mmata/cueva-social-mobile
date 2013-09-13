@@ -7,7 +7,7 @@ $comentario = $_REQUEST['comentario'] ;
 
 if (empty($email) || empty($comentario)) {
 echo "<script type=\"text/javascript\">
-alert('Porfavor, escribe tu e-mail y mensaje.');
+alert('Recuerda completar todos los campos requeridos');
 window.location.replace('index.html');
 </script>";
 }

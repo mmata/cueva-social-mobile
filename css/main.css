@@ -64,8 +64,8 @@ table {
 }
 
 h2 {
+	font-size: 1.4em;
 	font-family: indy_pimp;
-	font-size: 2em;
 	color:white;
 	text-transform:uppercase;
 	text-shadow: 0.1em 0.1em 0.2em #424242;
@@ -82,7 +82,7 @@ h3 {
 }
 
 p {
-				font-size: 0.75em;
+	font-size: 0.75em;
 	color:white;
 	text-align: justify;
 	font-family: sans-serif;
@@ -115,14 +115,14 @@ p {
 	
 .menuDerecha {
 	float: right;
-    margin-right: 20%;
+    /**margin-right: 20%;**/
     margin-top: 5px;
     width: 5%;
 }
 
 .menuIzq {
 	float: left;
-	margin-left: 20%;
+	/**margin-left: 20%;**/
 	margin-top: 5px;
     width: 5%;
 }
@@ -365,7 +365,7 @@ width: 100%;
 	width: 90%;
 	font-family: "Helvetica neue";
 	color: white;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: center;
 }
 		
@@ -373,16 +373,18 @@ width: 100%;
 	color: #004041;
 	font-family: "Helvetica neue";
 	text-align: justify;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	margin-left: 1.5em;
 }
 			
 #contacto-contenedor {
-	line-height: 0.1em;				
+line-height: 1em;
+	margin-right: 1em;	
 }
 				
 #info {
-	line-height: 0.3em;				
+	line-height: 1em;	
+	margin-right: 1.2em;	
 }
 				
 .formulario {
@@ -429,9 +431,9 @@ width: 100%;
 	table-layout: fixed;
 	z-index: 2;
 	margin-top: -11%;
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
 }
 	
 .footerData {
@@ -440,7 +442,7 @@ width: 100%;
 }
 
 .fbButton {
-	width: 100%;
+	width: 50%;
 	max-width: 28px;
 }
 	
@@ -594,8 +596,55 @@ textarea[contenteditable] {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 800px) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 160px) {
+ .menuDerecha {
+    margin-right: 10%;
+}
+
+.menuIzq {
+	margin-left: 10%;
+}
+    body{font-size: 70%;}
+}
+@media only screen and (min-width: 240px) {
+ .menuDerecha {
+    margin-right: 15%;
+}
+
+.menuIzq {
+	margin-left: 15%;
+}
+    body{font-size: 90%;}
+}
+@media only screen and (min-width: 320px) {
+ .menuDerecha {
+    margin-right: 20%;
+}
+
+.menuIzq {
+	margin-left: 20%;
+}
+    body{font-size: 100%;}
+}
+@media only screen and (min-width: 400px) {
+ .menuDerecha {
+    margin-right: 30%;
+}
+
+.menuIzq {
+	margin-left: 30%;
+}
+    body{font-size: 120%;}
+}
+@media only screen and (min-width: 640px) {
+ .menuDerecha {
+    margin-right: 30%;
+}
+
+.menuIzq {
+	margin-left: 30%;
+}
+    body{font-size: 140%;}
 }
 
 @font-face {
@@ -608,25 +657,25 @@ textarea[contenteditable] {
 	src: url('../fonts/"Helvetica neue".ttf');
 }
 
-@media screen and (max-width: 160px) {
-    body{font-size: 70%;}
+/**@media screen and (max-width: 160px) {
+    body{font-size: 40%;}
 }
 
 @media screen and (max-width: 240px) {
-    body{font-size: 80%;}
+    body{font-size: 60%;}
 }
 
 @media screen and (max-width: 320px) {
-    body{font-size: 90%;}
+    body{font-size: 70%;}
 }
 
 @media screen and (max-width: 400px) {
-    body{font-size: 100%;}
+    body{font-size: 80%;}
 }
 
 @media screen and (max-width: 640px) {
-    body{font-size: 110%;}
-}
+    body{font-size: 100%;}
+}**/
 
 @media all and (orientation:portrait) {
 /* Style adjustments for portrait mode goes here */
