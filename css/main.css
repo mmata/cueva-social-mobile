@@ -394,6 +394,16 @@ line-height: 1em;
 	font-family: "Helvetica neue";
 	padding: 0.3em;
 }
+
+.listaPais {
+width: 100%;
+min-width: 100%;
+max-width: 600px;
+background-color: #e8e4d4;
+font-family: "Helvetica neue";
+border: 0;
+padding: 0.3em;
+}
 			
 			
 #comentario {
